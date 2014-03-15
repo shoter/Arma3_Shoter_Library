@@ -1,0 +1,1 @@
+private["_base", "_dist"];_base = _this select 0;_dist = _this select 1;_ret = floor ((_base) / (1 + ( _dist / 60) ^ 4 ));_ret;
